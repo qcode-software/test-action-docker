@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: qcode-software/test-action-docker
+        uses: qcode-software/test-action-docker@v1.0.0
         with:
           who-to-greet: 'Qcode'
       # Use the output from the `hello` step
